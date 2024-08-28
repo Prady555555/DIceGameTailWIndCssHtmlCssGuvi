@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.headingStyle {
+  @apply font-extrabold text-blue-700 text-4xl;
+}
+.mainContainer {
+  @apply flex flex-col justify-center items-center gap-5 h-[100vh];
+}
